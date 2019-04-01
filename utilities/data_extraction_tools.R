@@ -56,3 +56,7 @@ build.cohort <- function(con, icd9_codes) {
                              paste(as.character(icd9_codes), collapse="', '")))
   )
 }
+
+tmp <- function() {
+  print('hello!')
+}
